@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "bun": "bun",
-    "build": "nuxt build",
+    "nuxt": "nuxt",
+    "build": "nuxt dev",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -13,7 +14,6 @@
   },
   "packageManager": "bun@1.1.33",
   "dependencies": {
-    "bun": "1.1.33",
     "@nuxt/image": "^1.8.1",
     "@nuxthub/core": "^0.7.37",
     "@prisma/nuxt": "^0.0.35",
@@ -28,6 +28,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "bun": "1.1.33",
     "@mermaid-js/mermaid-cli": "^11.2.1",
     "@prisma/client": "^5.21.1",
     "@types/validator": "^13.12.2",
