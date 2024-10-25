@@ -7,10 +7,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
+    "postinstall": "nuxt prepare && bun prisma generate && bun ./prisma/seeder.ts",
     "prisma": "prisma"
   },
+  "packageManager": "bun@1.1.33",
   "dependencies": {
+    "bun": "1.1.33",
     "@nuxt/image": "^1.8.1",
     "@nuxthub/core": "^0.7.37",
     "@prisma/nuxt": "^0.0.35",
