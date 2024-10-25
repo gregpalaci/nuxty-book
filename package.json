@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@nuxthub/core": "^0.7.37",
+    "@prisma/nuxt": "^0.0.35",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "nuxt": "^3.13.2",
+    "prisma": "^5.21.1",
+    "validator": "^13.12.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.2.1",
+    "@prisma/client": "^5.21.1",
+    "@types/validator": "^13.12.2",
+    "prisma-erd-generator": "^1.11.2",
+    "zod-prisma": "^0.5.4"
+  }
+}
