@@ -9,7 +9,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare && bun prisma generate && bun ./prisma/seeder.ts",
+    "postinstall": "nuxt prepare && bun ./prisma/seeder.ts",
     "prisma": "prisma"
   },
   "packageManager": "bun@1.1.33",
