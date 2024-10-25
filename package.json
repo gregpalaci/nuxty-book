@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "bun": "bun",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
